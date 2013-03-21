@@ -1,0 +1,18 @@
+# Use standard "Quake" keys for scrolling.
+KEYMAP:w:UP_TWO
+KEYMAP:s:DOWN_TWO
+KEYMAP:a:SHIFT_LEFT
+KEYMAP:d:SHIFT_RIGHT
+
+# These keys remap presets which got replaced by the mappings above.
+# The new keys are the same, use but upper case instead of lower case.
+KEYMAP:D:DOWNLOAD
+KEYMAP:A:ADD_BOOKMARK
+KEYMAP:S:INDEX_SEARCH
+
+# Unfortunately, the remapped "A" from above was also a preset key.
+# Remapping it to "L", because it resembles the functionality of "l".
+KEYMAP:L:ADDRLIST
+
+# This is the only new letter key: Toogle wordwrap mode.
+KEYMAP:W:LINEWRAP_TOGGLE

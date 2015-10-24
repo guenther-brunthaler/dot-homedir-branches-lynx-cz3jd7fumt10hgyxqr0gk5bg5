@@ -255,14 +255,14 @@ multi_bookmarkZ=
 # Absenderadresse in Mail-Kommentaren fehlen.
 personal_mail_address=
 
-# personal_mail_name specifies your personal name, for mail.  The
-# name is sent for mailed comments.  Lynx will prompt for this,
-# showing the configured value as a default when sending mail.
-# This is not necessarily the same as a name provided as part of the
-# personal_mail_address.
-# Lynx does not save your changes to that default value as a side-effect
-# of sending email.  To update the default value, you must use the options
-# menu, or modify this file directly.
+# personal_mail_name gibt deinen persönlichen Namen für E-mails an. Der
+# Name wird beim Versenden von E-mailkommentaren verwendet. Lynx wird
+# dich am Eingabeprompt danach fragen und den vorkonfigurierten Wert
+# standardmässig benutzen. Dieser Wert muß nicht unbedingt mit dem Namen
+# übereinstimmen, der als Teil von personal_mail_address definiert
+# wurde.  Lynx speichert die Änderungen des Standardwertes nicht. Um den
+# Standardwert zu ändern, benutze bitte das Optionenmenü oder
+# modifiziere die Konifugrationsdatei direkt.
 personal_mail_name=
 
 # preferred_charset gibt Zeichensatz und -kodierung (charset) in MIME-
@@ -287,7 +287,7 @@ preferred_charset=
 # HTTP-Server. Der Server sollte dann eine Datei in der vorgezogenen
 # Sprache zurückschicken, falls vorhanden; andernfalls antwortet der
 # Server in der für den Server (und die Datei) üblichen Sprache.
-preferred_language=en
+preferred_language=de en
 
 # select_popups bestimmt, ob OPTIONs in einem SELECT-Block ohne das
 # Attribute MULTIPLE als eine vertikale Liste von Radio-Buttons oder

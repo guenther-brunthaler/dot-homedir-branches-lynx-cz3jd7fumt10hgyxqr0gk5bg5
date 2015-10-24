@@ -1,0 +1,7 @@
+#! /bin/sh
+exec `
+	{
+		which -a "${0##*/}"
+		echo echo "lynx is not installed!"
+	} | tail -n +2 | head -n 1
+` -cfg ~/.homedir/lynx/lynx.cfg "$@"
